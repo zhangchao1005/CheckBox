@@ -17,6 +17,9 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 public class MainActivity extends Activity {
+
+    //首页完成了
+
     private ListView listView; //listview控件
     private ArrayList<String> contentStrings = new ArrayList<String>(); //数据源
     private ListViewAdpter adapter;  //适配器
